@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;1,300&family=Poppins:wght@200;400;500&family=Raleway:ital,wght@0,100;0,200;1,100&family=Rubik&family=Ubuntu:wght@300;400&display=swap');
+.banners{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.banners img{
+    width: 300px;
+    height: 300px;
+}
+.tv-link{
+    text-decoration: none;
+}
+.fridge-link{
+    text-decoration: none;
+}
+.banner-head{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+}
+.card-link{
+    text-decoration: none;
+}
+.banner-head h1{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.title3 h1{
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.banner-head img{
+    width: 40px;
+    height: 40px;
+}
+.title{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.title h1{
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.brands{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.lap-link{
+    text-decoration: none;
+}
+.brands img{
+    width: 180px;
+    height: 100px;
+    border: 1px solid rgb(209, 208, 208);
+}
+.title2 h1{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.app{
+    width: 100%;
+    height: 100px;
+}
+.top{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.title2,.title3{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.banner1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.banner1 h1{
+    color: white;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.product--image {
+    width: 130px;
+    height: 170px;
+    object-fit: cover;
+  }
+  .title3 span{
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgb(1, 169, 113);
+  }
+  .title2 span{
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgb(1, 169, 113);
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 400px;
+    width: 240px;
+    margin: auto;
+    border: 1px solid rgb(208, 206, 206);
+  }
+  
+  .price {
+color: rgb(2, 132, 89);
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+
+
+  .cards{
+    height: 500px;
+    width: 98%;
+    margin: auto;
+  }
+ .card h2{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+ }
+ .view{
+    background-color: rgb(4, 174, 146);
+    color: white;
+    border: hidden;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+ }
+ .laptop-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 320px;
+    width: 300px;
+    margin: auto;
+    border: 1px solid rgb(176, 180, 176);
+
+ }
+ .lap-image{
+    width: 200px;
+    height: 180px;
+    object-fit: contain;
+ }
+ .cmp-image{
+    width: 200px;
+    height: 180px;
+    object-fit: contain;
+ }
+ .fridge-image{
+    width: 220px;
+    height: 140px;
+    object-fit: contain;
+ }
+ .cmp-cards h2{
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+ }
+ .cmp-cards:hover{
+    box-shadow: 0 0 5px gray;
+ }
+ .lap-sell{
+    width: 100%;
+    height: 350px;
+ }
+ .computer-link{
+    text-decoration: none;
+ }
+ .cmp-cards h2{
+    color: black;
+ }
+ .laptop-cards h2{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+ }
+.card:hover{
+    box-shadow: 0 0 5px gray;
+}
+.laptop-cards:hover{
+    box-shadow: 0 0 5px gray;
+}
+.cmp-sell{
+    width: 100%;
+    height: 350px;
+}
+.cmp-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 320px;
+    width: 300px;
+    margin: auto;
+    border: 1px solid rgb(176, 180, 176);
+}
+.view-all{
+    color: green;
+    font-weight: bold;
+}
+.fridges{
+    width: 100%;
+    height: 350px;
+}
+.fridge{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 280px;
+    width: 240px;
+    margin: auto;
+    border: 1px solid rgb(208, 206, 206);
+}
+.fridge h2{
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+.fridge:hover{
+    box-shadow: 0 0 5px gray;
+}
+.banner-div{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.banner-div h1{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.banner-div button{
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+    border: hidden;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.games{
+    width: 100%;
+    height: 300px;
+}
+.gaming{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 280px;
+    width: 200px;
+    margin: auto;
+    border: 1px solid rgb(208, 206, 206);
+}
+.game-image{
+    width: 160px;
+    height: 140px;
+    object-fit: contain;
+}
+.gaming h2{
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.banner-div1 img{
+    width: 90%;
+    height: 200px;
+}
+.banner-div1{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

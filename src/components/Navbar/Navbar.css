@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;1,300&family=Poppins:wght@200;400;500&family=Raleway:ital,wght@0,100;0,200;1,100&family=Ubuntu:wght@300;400&display=swap');
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(28,28,28);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.schedule{
+    width: 180px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.date{
+    width: 15px;
+    height: 15px;
+}
+.schedule span{
+    color: white;
+    font-size: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.search{
+    width: 400px;
+    height: 60%;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search img{
+    width: 20px;
+    height: 20px;
+}
+.search input{
+    width: 360px;
+    height: 60%;
+    background-color: white;
+    border: hidden;
+    border-radius: 5px;
+    outline: none;
+}
+.icons{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icons img{
+    width: 25px;
+    height: 25px;
+}
+.navbar2{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0,0,0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 180px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo h1{
+    font-size: 30px;
+    color: rgb(6, 209, 241);
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+.menus{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(0,0,0);
+    width: 250px;
+    z-index: 1;
+    height: 300px;
+    left: -60px;
+  }
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color:rgb(0,0,0);
+    width: 400px;
+    z-index: 1;
+    height: 400px;
+    left: -100px;
+  }
+  .dropdown:hover .dropdown-content2 {
+    display: block;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown{
+    font-size: 14px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  
+  }
+  .plexus-link{
+    text-decoration: none;
+  }
+  .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+  .content span{
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .content span:hover{
+    color: rgb(6, 209, 241);
+    transform: scale(1.3);
+    transition: transform 0.5s;
+  }
+  .dropdown-content3 span:hover{
+    color: rgb(6, 209, 241);
+    transform: scale(1.3);
+    transition: transform 0.5s;
+  }
+  .dropdown-content4 span:hover{
+    color: rgb(6, 209, 241);
+    transform: scale(1.3);
+    transition: transform 0.5s;
+  }
+  .dropdown-content5 span:hover{
+    color: rgb(6, 209, 241);
+    transform: scale(1.3);
+    transition: transform 0.5s;
+  }
+  .dropdown-content6 span:hover{
+    color: rgb(6, 209, 241);
+    transform: scale(1.3);
+    transition: transform 0.5s;
+  }
+  .dropdown-content7 span:hover{
+    color: rgb(6, 209, 241);
+    transform: scale(1.3);
+    transition: transform 0.5s;
+  }
+  .dropdown-content3{
+    display: none;
+    position: absolute;
+    background-color:rgb(0,0,0);
+    width: 800px;
+    z-index: 1;
+    height: 200px;
+    left: -260px;
+    top: 20px;
+  }
+  .dropdown:hover .dropdown-content3 {
+    display: block;
+  }
+  .smartphone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+  }
+  .smart1{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(0,0,0);
+  }
+  .smart2{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(46, 46, 46);
+  }
+  .dropdown-content3 h1{
+    font-size: 13px;
+  }
+  .dropdown-content3 span{
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .dropdown-content4{
+    display: none;
+    position: absolute;
+    background-color:rgb(0,0,0);
+    width: 600px;
+    z-index: 1;
+    height: 250px;
+    left: -260px;
+    top: 20px;
+  }
+  .dropdown:hover .dropdown-content4{
+    display: block;
+  }
+  .computers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+
+  }
+  .cmp1{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(0,0,0);
+  }
+  .cmp2{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(46,46,46);
+  }
+  .dropdown-content4 h1{
+    font-size: 13px;
+  }
+  .dropdown-content4 span{
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+   .dropdown-content5{
+    display: none;
+    position: absolute;
+    background-color:rgb(0,0,0);
+    width: 1300px;
+    z-index: 1;
+    height: 400px;
+    right: -350px;
+    top: 20px;
+    
+  }
+  .dropdown-content6{
+    display: none;
+    position: absolute;
+    background-color:rgb(0,0,0);
+    width: 800px;
+    z-index: 1;
+    height: 400px;
+    right: -150px;
+    top: 20px;
+    
+  }
+  .dropdown:hover .dropdown-content5{
+    display: block;
+  }
+  .dropdown:hover .dropdown-content6{
+    display: block;
+  }
+  .dropdown-content5 span{
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .dropdown-content5 h1{
+    font-size: 13px;
+  }
+  .dropdown-content6 h1{
+    font-size: 13px;
+  }
+  .dropdown-content7{
+    display: none;
+    position: absolute;
+    background-color:rgb(0,0,0);
+    width: 250px;
+    z-index: 1;
+    height: 80px;
+    right: -50px;
+    top: 20px;
+  }
+  .dropdown:hover .dropdown-content7{
+    display: block;
+  }
+  .dropdown-content7 h1{
+    font-size: 13px;
+  }
+  .camera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .dropdown-content6 span{
+    font-size: 13px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
